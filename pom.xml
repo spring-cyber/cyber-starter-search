@@ -13,9 +13,9 @@
 
     <groupId>io.github.spring-cyber</groupId>
     <artifactId>cyber-starter-search</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
 
-    <name>cyber-starter-sso</name>
+    <name>cyber-starter-search</name>
     <url>https://github.com/spring-cyber</url>
     <description>Cyber Starter Search Project</description>
 
@@ -64,8 +64,8 @@
     <dependencies>
         <dependency>
             <groupId>io.github.spring-cyber</groupId>
-            <artifactId>cyber-web</artifactId>
-            <version>0.0.1</version>
+            <artifactId>cyber-core</artifactId>
+            <version>0.0.2</version>
         </dependency>
 
         <dependency>

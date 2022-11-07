@@ -1,10 +1,10 @@
-package com.cyber;
+package com.cyber.infrastructure.extension;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.cyber.constant.JWTTokenKey;
-import com.cyber.entity.ESRequest;
-import com.cyber.utils.ThreadLocals;
+import com.cyber.domain.constant.JWTTokenKey;
+import com.cyber.domain.entity.ESRequest;
+import com.cyber.infrastructure.toolkit.ThreadLocals;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.http.entity.ContentType;
 import org.apache.http.message.BasicHeader;

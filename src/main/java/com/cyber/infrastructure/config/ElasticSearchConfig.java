@@ -1,6 +1,6 @@
-package com.cyber.config;
+package com.cyber.infrastructure.config;
 
-import com.cyber.exception.BusinessException;
+import com.cyber.domain.exception.BusinessException;
 import org.apache.http.HttpHost;
 import org.apache.http.auth.AuthScope;
 import org.apache.http.auth.UsernamePasswordCredentials;
@@ -76,8 +76,7 @@ public class ElasticSearchConfig  {
                         httpClientBuilder.setDefaultRequestConfig(requestConfig);
                         return httpClientBuilder.setDefaultCredentialsProvider(credentialsProvider);
                     }
-                })
-                .setMaxRetryTimeoutMillis(timeoutMills);
+                });
         return builder;
     }
 

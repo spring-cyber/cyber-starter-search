@@ -1,6 +1,7 @@
-package com.cyber;
+package com.cyber.infrastructure.extension;
 
 import com.alibaba.fastjson.JSONObject;
+import com.cyber.infrastructure.extension.ElasticSearchClient;
 import org.apache.http.util.EntityUtils;
 import org.elasticsearch.client.Response;
 import org.elasticsearch.client.ResponseListener;
