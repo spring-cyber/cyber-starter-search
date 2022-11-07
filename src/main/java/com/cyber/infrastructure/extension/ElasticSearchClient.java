@@ -45,7 +45,6 @@ public class ElasticSearchClient {
             }
         } catch (Exception exception) {
             LOG.error("Elastic Search Client Search Error, Exception {} ...", exception);
-            LOG.error("Elastic Search Client Search Error, Request {} ...", JSON.toJSONString(request));
         }
         return null;
     }
